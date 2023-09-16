@@ -1,0 +1,17 @@
+---
+id: berlin-gesobau
+name: Berlin Gesobau
+metadata:
+  - ownership:
+  - schema:
+description:
+input_ports:
+output_ports:
+metrics:
+  - quality:
+  - operational:
+classification:
+tags:
+  - berlin
+  - housing
+  - gesobau
