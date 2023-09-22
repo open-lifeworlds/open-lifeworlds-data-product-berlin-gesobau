@@ -21,7 +21,7 @@ def filter_data(source_path, results_path, clean, quiet):
     :return:
     """
     # Iterate over files
-    for subdir, dirs, files in sorted(os.walk(os.path.join(source_path, "berlin-lor-daycare-centers-geojson"))):
+    for subdir, dirs, files in sorted(os.walk(os.path.join(source_path, "berlin-gesobau-lor-daycare-centers-geojson"))):
         for source_file_name in sorted(files):
             if "details.geojson" in source_file_name:
                 geojson = read_geojson_file(os.path.join(subdir, source_file_name))
