@@ -9,4 +9,5 @@
 **/*.zip
 
 /raw
+!/raw/berlin-gesobau-janitor-apartments
 /workspace
