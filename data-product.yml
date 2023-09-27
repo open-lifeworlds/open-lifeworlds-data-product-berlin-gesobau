@@ -9,7 +9,7 @@ metadata:
       - places: number of places in daycare centers
 description: This data product provides data related to Gesobau areas
 input_ports:
-  - id: berlin-gesobau-lor-daycare-centers-geojson
+  - id: berlin-lor-daycare-centers-geojson
     metadata:
       name: Berlin LOR daycare centers geojson
       author: Open Lifeworlds
@@ -20,9 +20,18 @@ input_ports:
       - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-daycare-centers/main/data/berlin-lor-daycare-centers-2023-10/berlin-lor-daycare-centers-2023-10-details.geojson
       - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-daycare-centers/main/data/berlin-lor-daycare-centers-2023-11/berlin-lor-daycare-centers-2023-11-details.geojson
 output_ports:
-  - id: berlin-gesobau-lor-daycare-centers-geojson
+  - id: berlin-gesobau-janitor-apartments-geojson
     metadata:
-      name: Berlin Gesobau LOR daycare centers geojson
+      name: Berlin Gesobau janitor apartments
+      author: Open Lifeworlds
+      url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-gesobau/tree/main/data
+      license: CC-BY-4.0
+      updated: 2023-12-17
+    files:
+      - https://raw.githubusercontent.com/open-lifeworlds/open-lifeworlds-data-product-berlin-gesobau/main/data/berlin-gesobau-janitor-apartments/berlin-gesobau-janitor-apartments-details.geojson
+  - id: berlin-gesobau-daycare-centers-geojson
+    metadata:
+      name: Berlin Gesobau daycare centers geojson
       author: Open Lifeworlds
       url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-gesobau/tree/main/data
       license: CC-BY-4.0
