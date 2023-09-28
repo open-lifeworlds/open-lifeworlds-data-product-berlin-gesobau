@@ -40,6 +40,7 @@ def blend_details_into_geojson(source_file_path, clean, quiet):
                     "coordinates": [float(detail["lon"]), float(detail["lat"])]
                 },
                 "properties": {
+                    "name": detail["name"],
                     "street": detail["street"],
                     "zip-code": detail["zip_code"],
                     "city": detail["city"],
