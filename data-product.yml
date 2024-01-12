@@ -2,11 +2,11 @@
 id: berlin-gesobau
 name: Berlin Gesobau
 metadata:
-  - ownership: Open Lifeworlds
-  - domain: geodata
-  - schema:
-      - daycare_centers: number of daycare centers
-      - places: number of places in daycare centers
+  ownership: Open Lifeworlds
+  domain: geodata
+  schema:
+    - daycare_centers: number of daycare centers
+    - places: number of places in daycare centers
 description: This data product provides data related to Gesobau areas
 input_ports:
   - id: berlin-lor-daycare-centers-geojson
@@ -44,7 +44,7 @@ output_ports:
 metrics:
   - quality:
   - operational:
-classification:
+classification: consumer-aligned
 tags:
   - berlin
   - housing
